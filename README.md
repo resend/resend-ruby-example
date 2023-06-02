@@ -20,7 +20,12 @@ gem install resend
 
 Via Gemfile:
 ```sh
+# Gemfile
 gem 'resend'
+```
+The run 
+```sh
+bundle install
 ```
 
 ## Instructions
@@ -30,8 +35,14 @@ gem 'resend'
 2. Execute the following command:
 
   ```sh
-TBD
+ruby index.rb
   ```
+  
+3. If you installed via Gemfile with `bundle install` run the following command:
+
+```sh
+bundle exec ruby index.rb
+```
 
 ## License
 
