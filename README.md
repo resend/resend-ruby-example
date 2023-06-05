@@ -13,36 +13,39 @@ To get the most out of this guide, you’ll need to:
 
 Get the [Resend Ruby SDK](https://github.com/resendlabs/resend-ruby).
 
-Via RubyGems:
 ```sh
+# Via RubyGems
 gem install resend
-```
 
-Via Gemfile:
-```sh
-# Gemfile
+# Via Gemfile
 gem 'resend'
-```
-The run 
-```sh
-bundle install
 ```
 
 ## Instructions
 
-1. Define the `RESEND_API_KEY` environment variable using your API key.
+1. Set your `RESEND_API_KEY` environment variable by running:
 
-2. Execute the following command:
+  ```sh
+export RESEND_API_KEY="re_123456789"
+  ```
+
+2. Install dependencies:
+
+  ```sh
+bundle install
+  ```
+
+3. Execute the following command:
 
   ```sh
 ruby index.rb
   ```
   
-3. If you installed via Gemfile with `bundle install` run the following command:
+Or if you installed via Gemfile with `bundle install` run the following command:
 
-```sh
+  ```sh
 bundle exec ruby index.rb
-```
+  ```
 
 ## License
 
